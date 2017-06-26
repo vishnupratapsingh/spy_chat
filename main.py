@@ -158,7 +158,13 @@ def start_chat(spy):
         show_menu = True
 
         while show_menu:
-            menu_choices = "What do you want to do? \n 1. Add a status update \n 2. Add a friend \n 3. Send a secret message \n 4. Read a secret message \n 5. Read Chats from a user \n 6. Close Application \n"
+            menu_choices = "What do you want to do? \n 
+            1. Add a status update \n 
+            2. Add a friend \n 
+            3. Send a secret message \n 
+            4. Read a secret message \n 
+            5. Read Chats from a user \n 
+            6. Close Application \n"
             menu_choice = raw_input(menu_choices)
 
             if len(menu_choice) > 0:
